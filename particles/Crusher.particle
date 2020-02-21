@@ -1,0 +1,39 @@
+{
+  "angularVelocity": 2.0,
+  "code": "MarkGrant.StarbitSeeds.Particle.Crusher",
+  "color": "FFFFFAFA",
+  "colorSpread": {
+    "x": 0.019999999552965164,
+    "y": 0.019999999552965164,
+    "z": 0.019999999552965164
+  },
+  "emitVelocity": {
+    "x": 0.0,
+    "y": 2.4,
+    "z": 0.0
+  },
+  "emitVelocitySpread": {
+    "x": 0.5,
+    "y": 0.0,
+    "z": 0.5
+  },
+  "gravityFactor": {
+    "x": 0.0,
+    "y": -0.10000000149011612,
+    "z": 0.0
+  },
+  "liveDuration": 0.800000011920929,
+  "particlesPerSecond": 150.0,
+  "position": {
+    "x": 0.0,
+    "y": -0.50,
+    "z": 0.0
+  },
+  "positionSpread": {
+    "x": 0.10000000149011612,
+    "y": 0.10000000149011612,
+    "z": 0.34999999403953552
+  },
+  "scale": 0.3000001192092896,
+  "scaleSpread": 0.400000149011612
+}

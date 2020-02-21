@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "code": "MarkGrant.StarbitSeeds.Reaction.JawCrusher",
+  "recipeStep": "assemble",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.SheetMetal",
+      "quantity": 6
+    },
+    {
+      "code": "staxel.item.Ore2",
+      "quantity": 3
+    },
+    {
+      "code": "staxel.item.crafting.Wire",
+      "quantity": 5
+    },
+    {
+      "code": "staxel.item.crafting.MetalBands",
+      "quantity": 4
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.CraftItem",
+      "code": "MarkGrant.StarbitSeeds.JawCrusher",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Assemble"
+}

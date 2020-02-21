@@ -1,0 +1,10 @@
+{
+  "code": "MarkGrant.StarbitSeeds.Sounds.StarbitCrusher",
+  "sounds": [
+    {
+      "file": "mods/StarbitSeeds/sounds/StarbitCrusher",
+      "volume": 1,
+      "fileType": "Ogg"
+    }
+  ]
+}

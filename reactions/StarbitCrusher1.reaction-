@@ -1,0 +1,27 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "automated": true,
+  "code": "MarkGrant.StarbitSeeds.Reaction.StarbitCrusher",
+  "duration": 2,
+  "effect": "MarkGrant.StarbitSeeds.Effect.Crusher",
+  "effectTrigger": "staxel.effect.crafting.SawFinish",
+  "reagents": [
+    {
+      "code": "MarkGrant.StarbitSeeds.CrusherBench",
+      "quantity": 2
+    },
+    {
+      "code": "MarkGrant.StarbitSeeds.JawCrusher",
+      "quantity": 1
+    }
+  ],
+  "recipeStep": "Assemble",
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "MarkGrant.StarbitSeeds.CraftingStation.StarbitsCrusher",
+      "quantity": 1
+    }
+  ],
+  "triggerDurationCraftManually": true
+}

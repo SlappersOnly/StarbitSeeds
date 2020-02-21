@@ -1,0 +1,34 @@
+{
+  "categories": [
+    "wood",
+    "lumber"
+  ],
+  "code": "MarkGrant.StarbitSeeds.JawCrusher",
+  "icon": "mods/StarbitSeeds/models/JawCrusher.qb",
+  "inHand": "mods/StarbitSeeds/models/JawCrusher.qb",
+  "iconScale": 0.5,
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 7,
+    "value": 12
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

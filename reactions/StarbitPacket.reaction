@@ -1,0 +1,22 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "automated": true,
+  "code": "MarkGrant.StarbitSeeds.Reaction.StarbitsPacket",
+  "duration": 10,
+  "effect": "MarkGrant.StarbitSeeds.Effect.Crusher",
+  "effectTrigger": "staxel.effect.crafting.SawFinish",
+  "reagents": [
+    {
+      "code": "staxel.item.generic.StarBits"
+    }
+  ],
+  "recipeStep": "crush",
+  "results": [
+    {
+      "kind": "staxel.item.Seed",
+      "plant": "MarkGrant.StarbitSeeds.Crop.Starbit",
+	  "quantity" : 2
+    }
+  ],
+  "triggerDurationCraftManually": true
+}

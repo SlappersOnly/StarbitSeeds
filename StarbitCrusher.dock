@@ -1,0 +1,96 @@
+{
+  "code": "MarkGrant.StarbitSeeds.Docks.StarbitCrusher",
+  "craftingKeyword": "crush",
+  "effectSite": "crush",
+  "resultSite": "results",
+  "removeReagentsOnCraftStart": false,
+  "nameTagOffset": {
+    "x": 0.0,
+    "y": 0.60000002384185791,
+    "z": 0.0
+  },
+  "sites": [
+    {
+      "siteName": "results",
+      "allowStacks": true,
+      "disallowManualDocking": true,
+      "location": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+    },
+    {
+      "siteName": "crush",
+      "disallowManualDocking": true,
+      "location": {
+        "x": 0,
+        "y": 1.1,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+    },
+    {
+      "siteName": "input",
+      "allowStacks": true,
+      "craftSite": true,
+      "location": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "starbit",
+      "effectTrigger": "staxel.effect.DockItem",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+	  "placeSoundGroup": "staxel.sounds.place.Stone",
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "sites": [
+        "input"
+      ]
+    },
+    {
+      "category": "all",
+      "effectTrigger": "staxel.effect.DockItem",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "placeSoundGroup": "staxel.sounds.place.Stone",
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "sites": [
+        "results"
+      ]
+    }
+  ]
+}

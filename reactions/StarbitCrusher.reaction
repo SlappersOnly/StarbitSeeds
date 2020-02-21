@@ -1,0 +1,25 @@
+{
+  "__inherits": "staxel/crafting/reactions/crafting/craft.config",
+  "automated": true,
+  "code": "MarkGrant.StarbitSeeds.Reaction.StarbitCrusher",
+  "recipeStep": "combine",
+  "tools": [],
+  "reagents": [
+    {
+      "code": "MarkGrant.StarbitSeeds.CrusherBench",
+      "quantity": 2
+    },
+    {
+      "code": "MarkGrant.StarbitSeeds.JawCrusher",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "MarkGrant.StarbitSeeds.CraftingStation.StarbitsCrusher",
+      "quantity": 1
+    }
+  ],
+  "effectTrigger": "staxel.effect.crafting.Combine"
+}

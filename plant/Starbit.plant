@@ -1,0 +1,752 @@
+{
+  "categories": [
+    "plant",
+    "yellow",
+    "seed",
+    "gem",
+    "crop"
+  ],
+  "code": "MarkGrant.StarbitSeeds.Crop.Starbit",
+  "icon": "mods/StarbitSeeds/models/StarbitSeedPacket.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 12,
+    "value": 60
+  },
+  "searchable": true,
+  "seasons": [
+    "spring",
+    "summer",
+    "winter",
+    "autumn"
+  ],
+  "stages": {
+  "seed": {
+    "alt": 0,
+    "grow": "StarbitSprout1",
+    "growWindow": {
+      "x": 1,
+      "y": 1
+    },
+    "shovelable": {}
+  },
+    "StarbitSprout1": {
+      "alt": 1,
+      "grow": "StarbitSprout2",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "StarbitWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout2": {
+      "alt": 2,
+      "grow": "StarbitSprout3",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "wilted": "StarbitWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout3": {
+      "alt": 3,
+      "grow": "StarbitSprout4",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout4": {
+      "alt": 4,
+      "grow": "StarbitSprout5",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout5": {
+      "alt": 5,
+      "grow": "StarbitSprout6",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout6": {
+      "alt": 6,
+      "grow": "StarbitSprout7",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout7": {
+      "alt": 7,
+      "grow": "StarbitSprout8",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted7",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout8": {
+      "alt": 8,
+      "grow": "StarbitSprout9",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted8",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout9": {
+      "alt": 9,
+      "grow": "StarbitSprout10",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted9",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout10": {
+      "alt": 10,
+      "grow": "StarbitSprout11",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted10",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout11": {
+      "alt": 11,
+      "grow": "StarbitSprout12",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted11",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout12": {
+      "alt": 12,
+      "grow": "StarbitSprout13",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted12",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout13": {
+      "alt": 13,
+      "grow": "StarbitSprout14",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted13",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout14": {
+      "alt": 14,
+      "grow": "StarbitFruited",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted14",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitFruited": {
+      "alt": 15,
+      "interactionEntityAction": "staxel.entityAction.HarvestPullable",
+      "offset": {
+        "x": 0.0,
+        "y": 0.5,
+        "z": 0.0
+      },
+      "particles": "staxel.particle.harvest.PickCrops",
+      "pickEntirely": true,
+      "pickedTreasure": "MarkGrant.StarbitSeeds.Treasure.StarbitHarvest",
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWilted1": {
+      "alt": 16,
+      "grow": "StarbitSprout1.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "StarbitWithered1",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted2": {
+      "alt": 17,
+      "grow": "StarbitSprout2.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "withered": "StarbitWithered2",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted3": {
+      "alt": 18,
+      "grow": "StarbitSprout3.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered3",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted4": {
+      "alt": 19,
+      "grow": "StarbitSprout4.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered4",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted5": {
+      "alt": 20,
+      "grow": "StarbitSprout5.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered5",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted6": {
+      "alt": 21,
+      "grow": "StarbitSprout6.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered6",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted7": {
+      "alt": 22,
+      "grow": "StarbitSprout7.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered7",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted8": {
+      "alt": 23,
+      "grow": "StarbitSprout8.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered8",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted9": {
+      "alt": 24,
+      "grow": "StarbitSprout9.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered9",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted10": {
+      "alt": 25,
+      "grow": "StarbitSprout10.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered10",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted11": {
+      "alt": 26,
+      "grow": "StarbitSprout11.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered11",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted12": {
+      "alt": 27,
+      "grow": "StarbitSprout12.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered12",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted13": {
+      "alt": 28,
+      "grow": "StarbitSprout13.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered13",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWilted14": {
+      "alt": 29,
+      "grow": "StarbitSprout14.1",
+      "growWindow": {
+        "x": 1,
+        "y": 1
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "withered": "StarbitWithered14",
+      "witheredWindow": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "StarbitWithered1": {
+      "alt": 30,
+      "scytheable": {}
+    },
+    "StarbitWithered2": {
+      "alt": 31,
+      "scytheable": {}
+    },
+    "StarbitWithered3": {
+      "alt": 32,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered4": {
+      "alt": 33,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered5": {
+      "alt": 34,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered6": {
+      "alt": 35,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered7": {
+      "alt": 36,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered8": {
+      "alt": 37,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered9": {
+      "alt": 38,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered10": {
+      "alt": 39,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered11": {
+      "alt": 40,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered12": {
+      "alt": 41,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered13": {
+      "alt": 42,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitWithered14": {
+      "alt": 43,
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle"
+    },
+    "StarbitSprout1.1": {
+      "alt": 44,
+      "grow": "StarbitSprout2.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "StarbitWilted1",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout2.1": {
+      "alt": 45,
+      "grow": "StarbitSprout3.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "wilted": "StarbitWilted2",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout3.1": {
+      "alt": 46,
+      "grow": "StarbitSprout4.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted3",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout4.1": {
+      "alt": 47,
+      "grow": "StarbitSprout5.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted4",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout5.1": {
+      "alt": 48,
+      "grow": "StarbitSprout6.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted5",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout6.1": {
+      "alt": 49,
+      "grow": "StarbitSprout7.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted6",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout7.1": {
+      "alt": 50,
+      "grow": "StarbitSprout8.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted7",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout8.1": {
+      "alt": 51,
+      "grow": "StarbitSprout9.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted8",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout9.1": {
+      "alt": 52,
+      "grow": "StarbitSprout10.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted9",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout10.1": {
+      "alt": 53,
+      "grow": "StarbitSprout11.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted10",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout11.1": {
+      "alt": 54,
+      "grow": "StarbitSprout12.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted11",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout12.1": {
+      "alt": 55,
+      "grow": "StarbitSprout13.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted12",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout13.1": {
+      "alt": 56,
+      "grow": "StarbitSprout14.1",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted13",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    "StarbitSprout14.1": {
+      "alt": 57,
+      "grow": "StarbitFruited",
+      "growWindow": {
+        "x": 2,
+        "y": 2
+      },
+      "scytheable": {},
+      "stepSoundGroup": "staxel.sounds.BushRustle",
+      "wilted": "StarbitWilted14",
+      "wiltedWindow": {
+        "x": 1,
+        "y": 1
+      }
+    }
+  },
+  "tile": "MarkGrant.StarbitSeeds.Plant.Crop.Starbit"
+}

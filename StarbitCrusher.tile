@@ -1,0 +1,32 @@
+{
+  "__inherits": "staxel/docks/dockBase.config",
+  "categories": [
+    "starbits",
+    "bench",
+    "pink",
+    "sawing",
+    "station",
+    "tool",
+	"crush",
+  ],
+  "code": "MarkGrant.StarbitSeeds.CraftingStation.StarbitsCrusher",
+  "compound": {
+    "size": {
+      "x": 3,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "descriptionImage": "mods/StarbitSeeds/CrushIcon.png",
+  "dockDefinition": "MarkGrant.StarbitSeeds.Docks.StarbitCrusher",
+  "prefetchTileState": true,
+  "pricing": {
+    "buyable": false,
+    "catalogueUnlockedFromStart": false,
+    "sellPrice": 600,
+    "value": 1000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.WoodFootSteps",
+  "voxels": "mods/StarbitSeeds/models/StarbitsCrusher.qb"
+}

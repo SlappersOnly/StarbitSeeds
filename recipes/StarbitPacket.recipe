@@ -1,0 +1,29 @@
+{
+  "__inherits": "staxel/crafting/recipes/craftingRecipe.config",
+  "code": "MarkGrant.StarbitSeeds.Recipes.StarbitPacket",
+  "grouping": "Starbits",
+  "ingredients": [
+    {
+      "code": "staxel.item.generic.StarBits",
+      "quantity": 1
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": false,
+    "sellPrice": 18,
+    "value": 30
+  },
+  "priority": 1,
+  "result": {
+    "count": 2,
+    "item": {
+      "code": "MarkGrant.StarbitSeeds.StarbitPacket"
+    }
+  },
+  "searchable": false,
+  "starter": true,
+  "steps": [
+    "MarkGrant.StarbitSeeds.Reaction.StarbitsPacket"
+  ]
+}

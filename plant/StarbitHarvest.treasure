@@ -1,0 +1,14 @@
+{
+  "code": "MarkGrant.StarbitSeeds.Treasure.StarbitHarvest",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        {
+          "code": "staxel.item.generic.StarBits",
+		  "quantity" : 1
+        }
+      ]
+    }
+  ]
+}

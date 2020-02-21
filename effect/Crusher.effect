@@ -1,0 +1,14 @@
+{
+  "__inherits": "staxel/effect/base.config",
+  "code": "MarkGrant.StarbitSeeds.Effect.Crusher",
+  "particles": [
+    "MarkGrant.StarbitSeeds.Particle.Crusher",
+	"MarkGrant.StarbitSeeds.Particle.Crusher1",
+	"MarkGrant.StarbitSeeds.Particle.Crusher2",
+	"MarkGrant.StarbitSeeds.Particle.Crusher3"
+  ],
+  "sounds": [
+    "MarkGrant.StarbitSeeds.Sounds.StarbitCrusher"
+  ],
+  "dockTileRotation": true
+}
